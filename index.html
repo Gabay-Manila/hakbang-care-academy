@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="ja" class="scroll-smooth">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HAKBANG Virtual Care Academy | HAKBANG バーチャル介護アカデミー by Yoshida EdTech Works</title>
+<meta name="description" content="日本語ゼロから約6ヶ月で現場即戦力へ。特定技能（介護）専門のAIオンデマンド育成校ポータル。From Zero Japanese to Job-Ready in ~6 Months.">
+<meta name="keywords" content="HAKBANG, 特定技能 介護, 介護福祉士 パート合格, JFT-Basic 模試, 指示理解, N3 会話判定, 介護 日本語">
+<link rel="canonical" href="https://yoshida-edtech.vercel.app/">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://yoshida-edtech.vercel.app/">
+<meta property="og:title" content="HAKBANG Virtual Care Academy">
+<meta property="og:description" content="From Zero Japanese to Job-Ready in ~6 Months: AI-Powered On-Demand Caregiver Academy.">
+<meta property="og:site_name" content="HAKBANG Virtual Care Academy">
+<meta name="twitter:card" content="summary_large_image">
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@500;700;800&family=Spectral:ital,wght@0,400;0,600;1,400&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<!-- Google tag (gtag.js) — GA4: Yoshida EdTech Works -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-35R08DWN7L"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-35R08DWN7L');</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[
+{"@type":"WebSite","@id":"https://yoshida-edtech.vercel.app/#website","url":"https://yoshida-edtech.vercel.app/","name":"HAKBANG Virtual Care Academy","description":"特定技能（介護）専門のAIオンデマンド育成校ポータル","inLanguage":["ja","en"]},
+{"@type":"ItemList","name":"提供アプリ一覧","itemListElement":[
+{"@type":"ListItem","position":1,"name":"指示理解・実行力診断テスト","url":"https://shiji-rikai-test.vercel.app/"},
+{"@type":"ListItem","position":2,"name":"N3相当 会話能力判定","url":"https://n3-level-placement-check.vercel.app/"},
+{"@type":"ListItem","position":3,"name":"にほんごの根っこ活字堂","url":"https://nihongo-no-nekko.vercel.app/"},
+{"@type":"ListItem","position":4,"name":"にほんご活字堂 助詞","url":"https://particle-focus.vercel.app/"},
+{"@type":"ListItem","position":5,"name":"NIHONGO サバイバル","url":"https://edtech-nihongo.vercel.app/"},
+{"@type":"ListItem","position":6,"name":"JFT-Basic CBT 模擬試験","url":"https://jft-moktest.vercel.app/"},
+{"@type":"ListItem","position":7,"name":"Nursing Care Skills Exam","url":"https://nursing-care-skills-exam.vercel.app/"},
+{"@type":"ListItem","position":8,"name":"介護模試 Lite","url":"https://kaigo-moshi-lite.vercel.app/"},
+{"@type":"ListItem","position":9,"name":"声かけマスター","url":"https://gabay-koekake.vercel.app/"},
+{"@type":"ListItem","position":10,"name":"介護記録 かんたん入力","url":"https://kaigo-kiroku-lite.vercel.app/"},
+{"@type":"ListItem","position":11,"name":"話して書いて伝え合う（介護職エディション）","url":"https://care-nihongo-pwa.vercel.app/"},
+{"@type":"ListItem","position":12,"name":"介護ことば活字堂","url":"https://kaigo-kotoba-katsujido.vercel.app/"},
+{"@type":"ListItem","position":13,"name":"社会のしくみ活字堂","url":"https://social-mechanism-katsujido.vercel.app/"},
+{"@type":"ListItem","position":14,"name":"介護福祉士 パート合格","url":"https://kaigo-part-goukaku.vercel.app/"}]}]}
+</script>
+<style>
+:root{--ink:#2B2926;--cream:#EFEAE0;--cream-deep:#E4DECE;--stone:#C9C2B4;--stone-line:#DDD6C6;--brass-deco:#9C7A2E;--brass-light:#C5A059;
+--theme-exam:#2E8B76;--theme-exam-text:#1F6355;--theme-exam-bg:#EAF4F1;
+--theme-care:#D9637A;--theme-care-text:#B23F58;--theme-care-bg:#FDF0F2;
+--theme-learning:#E08A34;--theme-learning-text:#A85F1D;--theme-learning-bg:#FDF4EB;
+--theme-guide:#E0B23A;--theme-guide-text:#8C6A1D;--theme-guide-bg:#FCFAEC;}
+body{background-color:var(--cream);color:var(--ink);font-family:'Zen Kaku Gothic New',sans-serif;background-image:radial-gradient(var(--stone-line) .75px,transparent .75px);background-size:16px 16px}
+.font-mincho{font-family:'Shippori Mincho',serif}.font-spectral{font-family:'Spectral',serif}
+.katsu-mark{background:linear-gradient(135deg,var(--brass-light),var(--brass-deco));color:#FFF;box-shadow:inset 0 1px 1px rgba(255,255,255,.4),0 2px 4px rgba(0,0,0,.15)}
+.tap-target{min-height:40px}
+a:focus-visible,button:focus-visible,input:focus-visible,summary:focus-visible{outline:2px solid var(--brass-deco);outline-offset:2px}
+.card{background:#fff;border:1px solid var(--stone-line);position:relative;overflow:hidden;transition:transform .25s,box-shadow .25s}
+.card::before{content:'';position:absolute;top:0;left:0;width:5px;height:100%;background:var(--c)}
+.card:hover{transform:translateY(-3px);box-shadow:0 12px 24px -6px rgba(43,41,38,.12);border-color:var(--c)}
+.card.done{background:#F6FBF8}
+.t-exam{--c:var(--theme-exam);--tx:var(--theme-exam-text);--bg:var(--theme-exam-bg)}
+.t-care{--c:var(--theme-care);--tx:var(--theme-care-text);--bg:var(--theme-care-bg)}
+.t-learning{--c:var(--theme-learning);--tx:var(--theme-learning-text);--bg:var(--theme-learning-bg)}
+.t-guide{--c:var(--theme-guide);--tx:var(--theme-guide-text);--bg:var(--theme-guide-bg)}
+.t-gate{--c:var(--brass-deco);--tx:var(--brass-deco);--bg:#FBF6E9}
+.badge{background:var(--bg);color:var(--tx);border:1px solid var(--c)}
+.open-btn:hover{background:var(--c);color:#fff;border-color:transparent}
+.chk{border:1px solid var(--stone-line);background:#fff;color:#666;transition:all .15s}
+.chk:hover{border-color:var(--c);color:var(--tx)}
+.chk.on{background:#ECFDF5;border-color:#6EE7B7;color:#047857;font-weight:700}
+.level-badge{font-size:.65rem;font-weight:700;padding:.15rem .55rem;border-radius:9999px;background:var(--cream-deep);border:1px solid var(--stone-line)}
+.panel{background:rgba(255,255,255,.8);border:1px solid var(--stone-line);border-radius:1rem}
+.bar{height:.75rem;background:var(--cream-deep);border-radius:9999px;overflow:hidden}
+.bar>div{height:100%;background:linear-gradient(90deg,var(--theme-exam),var(--brass-light));transition:width .4s}
+details>summary{cursor:pointer;list-style:none}details>summary::-webkit-details-marker{display:none}
+details[open] .caret{transform:rotate(90deg)}.caret{transition:transform .2s}
+@media(prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body class="min-h-screen flex flex-col justify-between selection:bg-amber-200 selection:text-amber-900">
+
+<header class="border-b border-[var(--stone-line)] bg-[var(--cream-deep)]/80 backdrop-blur-md sticky top-0 z-40">
+ <div class="max-w-6xl mx-auto px-4 py-3 sm:px-6 flex flex-col sm:flex-row justify-between items-center gap-3">
+  <div class="flex items-center gap-3.5">
+   <div class="katsu-mark w-10 h-10 rounded-lg flex items-center justify-center font-mincho text-xl font-bold shrink-0">活</div>
+   <div>
+    <h1 class="font-mincho text-xl sm:text-2xl font-bold tracking-tight">HAKBANG Virtual Care Academy</h1>
+    <p id="subBrand" class="text-xs text-stone-600 font-medium" data-ja="HAKBANG バーチャル介護アカデミー | by Yoshida EdTech Works" data-en="HAKBANG Virtual Care Academy | by Yoshida EdTech Works">HAKBANG バーチャル介護アカデミー | by Yoshida EdTech Works</p>
+   </div>
+  </div>
+  <div class="flex items-center gap-2 sm:gap-3 text-xs">
+   <button id="langToggle" type="button" class="tap-target flex items-center gap-2 px-3 py-1.5 rounded-full bg-[var(--cream)] border border-[var(--stone-line)] hover:border-[var(--brass-deco)] shadow-sm" aria-label="表示言語を切り替え / Switch language"><i class="fa-solid fa-globe text-[var(--brass-deco)]"></i><span id="langLabel" class="font-medium">English</span></button>
+   <button id="soundToggle" type="button" class="tap-target flex items-center gap-2 px-3 py-1.5 rounded-full bg-[var(--cream)] border border-[var(--stone-line)] hover:border-[var(--brass-deco)] shadow-sm"><i id="soundIcon" class="fa-solid fa-volume-high text-[var(--brass-deco)]"></i><span id="soundLabel" class="font-medium">437Hz 音声: ON</span></button>
+   <div class="hidden sm:flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-emerald-50 text-emerald-800 border border-emerald-200/60 font-medium"><span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span><span>14 Apps Online</span></div>
+  </div>
+ </div>
+</header>
+
+<main class="max-w-6xl mx-auto px-4 sm:px-6 py-8 flex-grow w-full space-y-8">
+
+ <section class="panel p-6 sm:p-8 shadow-sm">
+  <h2 class="font-mincho text-2xl sm:text-3xl font-bold mb-2 leading-snug" data-ja="日本語ゼロから約6ヶ月。現場で『動ける・伝わる』介護人材を育てるAIオンデマンド育成校" data-en="From Zero Japanese to Job-Ready in ~6 Months: AI-Powered On-Demand Caregiver Academy.">日本語ゼロから約6ヶ月。現場で『動ける・伝わる』介護人材を育てるAIオンデマンド育成校</h2>
+  <p class="text-stone-600 text-sm leading-relaxed max-w-3xl" data-ja="通信環境を問わず動くPWA群を、4つのステージ順に。上から順に進めれば、迷わず現場へ。" data-en="Offline-friendly PWAs arranged in four stages. Work from top to bottom and arrive on the floor job-ready.">通信環境を問わず動くPWA群を、4つのステージ順に。上から順に進めれば、迷わず現場へ。</p>
+ </section>
+
+ <!-- マイ進捗ダッシュボード -->
+ <section class="panel p-5 sm:p-6" aria-labelledby="dashH">
+  <h2 id="dashH" class="font-mincho text-xl font-bold mb-4 flex items-center gap-2"><i class="fa-solid fa-chart-line text-[var(--brass-deco)]"></i><span data-ja="マイ進捗ダッシュボード" data-en="My Progress">マイ進捗ダッシュボード</span></h2>
+  <div class="grid md:grid-cols-2 gap-5">
+   <div>
+    <p id="streakText" class="text-lg font-bold mb-3"></p>
+    <p id="rateText" class="text-sm font-semibold mb-1"></p>
+    <div class="bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" id="barWrap"><div id="barFill" style="width:0%"></div></div>
+   </div>
+   <div class="flex flex-col gap-2">
+    <label for="pidInput" class="text-xs font-semibold text-stone-600" data-ja="学習者ID（任意）" data-en="Learner ID (optional)">学習者ID（任意）</label>
+    <input id="pidInput" type="text" maxlength="40" autocomplete="off" class="tap-target px-3 py-2 text-sm rounded-lg bg-white border border-[var(--stone-line)]" data-ph-ja="例: PRA-0123 / 氏名" data-ph-en="e.g. PRA-0123 / name">
+    <button id="copyBtn" type="button" class="tap-target px-4 py-2 rounded-lg bg-[var(--ink)] text-white text-sm font-semibold hover:bg-stone-700"><i class="fa-regular fa-copy mr-1"></i><span data-ja="進捗レポートをコピー" data-en="Copy Progress Report">進捗レポートをコピー</span></button>
+    <p id="copyMsg" class="text-xs text-emerald-700 min-h-[1rem]" aria-live="polite"></p>
+   </div>
+  </div>
+  <details class="mt-4 border-t border-[var(--stone-line)] pt-4">
+   <summary class="font-semibold text-sm flex items-center gap-2"><i class="fa-solid fa-chevron-right caret text-xs text-[var(--brass-deco)]"></i><span data-ja="日本語ゼロからの6ヶ月標準ロードマップ（総学習 約300時間）" data-en="6-Month Standard Roadmap from Zero Japanese (~300 hours)">日本語ゼロからの6ヶ月標準ロードマップ（総学習 約300時間）</span></summary>
+   <p class="text-xs text-stone-600 mt-3" data-ja="目安：1日1.5〜2時間 × 週6日ペース" data-en="Guide: 1.5–2 hours a day, 6 days a week">目安：1日1.5〜2時間 × 週6日ペース</p>
+   <ol id="roadmapList" class="mt-3 grid sm:grid-cols-2 gap-3"></ol>
+  </details>
+ </section>
+
+ <!-- Assessment Gate -->
+ <section aria-labelledby="gateH">
+  <h2 id="gateH" class="font-mincho text-xl sm:text-2xl font-bold flex items-center gap-2"><i class="fa-solid fa-door-open text-[var(--brass-deco)]"></i><span data-ja="Assessment Gate｜現場実行力 診断＆修了判定ゲート" data-en="Assessment Gate | Job-Readiness Check & Completion Gate">Assessment Gate｜現場実行力 診断＆修了判定ゲート</span></h2>
+  <p class="text-stone-600 text-sm mb-4 mt-1" data-ja="受入施設・PRAへ提示できる診断結果を出力する2つの関門です。" data-en="Two gates that output results you can show to employers and PRAs.">受入施設・PRAへ提示できる診断結果を出力する2つの関門です。</p>
+  <div id="gateGrid" class="grid md:grid-cols-2 gap-5"></div>
+ </section>
+
+ <div id="stages" class="space-y-10"></div>
+</main>
+
+<footer class="border-t border-[var(--stone-line)] bg-[var(--cream-deep)] mt-12 py-8 text-stone-600">
+ <div class="max-w-6xl mx-auto px-4 sm:px-6 flex flex-col md:flex-row items-center justify-between gap-6">
+  <div class="flex items-center gap-3">
+   <div class="katsu-mark w-8 h-8 rounded flex items-center justify-center font-mincho font-bold text-sm shrink-0">活</div>
+   <div><p class="font-mincho text-sm font-bold text-[var(--ink)]" data-ja="HAKBANG 開発理念" data-en="HAKBANG — Philosophy">HAKBANG 開発理念</p>
+   <p class="text-xs text-stone-500 font-medium" data-ja="「低帯域 ・ オフラインファースト ・ 実用第一」" data-en="&quot;Low-bandwidth · Offline-first · Practicality first&quot;">「低帯域 ・ オフラインファースト ・ 実用第一」</p></div>
+  </div>
+  <p class="font-spectral text-xs text-stone-500 text-center md:text-right">&copy; HAKBANG Virtual Care Academy by Yoshida EdTech Works.</p>
+ </div>
+</footer>
+
+<script>
+const TOTAL=14, KEY='hakbang_progress_v1';
+let lang='ja', soundOn=true, audioCtx=null;
+
+/* ---------- データ ---------- */
+const GATES=[
+ {id:'g1',url:'https://shiji-rikai-test.vercel.app/',no:'Gate 01',icon:'fa-list-check',
+  ja:'指示理解・実行力診断テスト',en:'Instruction Comprehension & Execution Check',
+  dja:'試験合格後の必須関門。現場スピード（1.15倍速）での聞き取り・連続指示・優先順位・割り込み記憶を約15分で診断し、施設向けプロファイルを生成。',
+  den:'Screen real job readiness (1.15x field speed, multi-step instructions, priority & memory) in 15 mins.'},
+ {id:'g2',url:'https://n3-level-placement-check.vercel.app/',no:'Gate 02',icon:'fa-comments',
+  ja:'N3相当 会話能力判定',en:'Care Japanese: N3-level Placement Check',
+  dja:'渡航直前仕上げ・入国時判定。「聞く・話す・書く（介護記録・事故報告）」を約15分でAI判定し、受入施設向けの「伴走指示書（Coaching Sheet）」を出力。',
+  den:'AI assessment of Listening, Speaking & Care Writing in 15 mins. Outputs a Coaching Sheet for employers.'}
+];
+const STAGES=[
+ {n:1,t:'t-learning',ja:'日本語の土台づくり',en:'Foundation & Screening',pja:'1〜2ヶ月目',pen:'Months 1–2',apps:[
+  {id:'a1',url:'https://nihongo-no-nekko.vercel.app/',ja:'にほんごの根っこ活字堂',en:'Nihongo no Nekko',lv:'N5',dja:'語源と語幹から日本語の基本語彙を掴むコア学習。言葉の成り立ちを理解し、応用力を鍛えます。',den:'Core vocabulary training that builds words up from their roots and stems — understand how words form and build lasting application skills.'},
+  {id:'a2',url:'https://particle-focus.vercel.app/',ja:'にほんご活字堂 助詞',en:'Particle Focus',lv:'N4',dja:'「て・に・を・は」の使い分けを活字チャンクで体得するドリル。自然な助詞の感覚をマスター。',den:'A chunk-based drill for mastering Japanese particles (te/ni/wo/wa) — build a natural feel for particle usage.'},
+  {id:'a3',url:'https://edtech-nihongo.vercel.app/',ja:'NIHONGO サバイバル',en:'NIHONGO Survival',lv:'N5',dja:'渡日前・来日直後に必要な最重要日本語フレーズを集約。生活現場で役立つサバイバル集。',den:'The most essential Japanese phrases for before and right after arriving in Japan — practical survival phrases for daily life.'}]},
+ {n:2,t:'t-exam',ja:'特定技能 試験突破',en:'Official Exam Prep',pja:'3〜4ヶ月目',pen:'Months 3–4',apps:[
+  {id:'a4',url:'https://jft-moktest.vercel.app/',ja:'JFT-Basic CBT 模擬試験',en:'JFT-Basic CBT Mock Exam',lv:'A2',dja:'特定技能1号（介護・外食等）取得のためのA2レベルCBT模試。本番同様の操作感で実践力を強化。',den:'A2-level CBT mock exam for Specified Skilled Worker (i) certification — with the same on-screen feel as the real test.'},
+  {id:'a5',url:'https://nursing-care-skills-exam.vercel.app/',ja:'Nursing Care Skills Exam',en:'Nursing Care Skills Exam',dja:'介護技能評価試験（実技・学科）のポイント確認ドリル。重要知識と手順を手軽におさらい。',den:'A review drill for the Nursing Care Skills Exam (practical and written), covering key knowledge and procedures.'},
+  {id:'a6',url:'https://kaigo-moshi-lite.vercel.app/',ja:'介護模試 Lite',en:'Kaigo Moshi Lite',dja:'現場必須の基本問題を短時間でサクサク解くライト模試。スキマ時間の反復演習に最適。',den:'A lightweight mock exam covering must-know frontline basics — perfect for quick, repeated practice.'}]},
+ {n:3,t:'t-care',ja:'現場即戦力トレーニング',en:'Job-Readiness Training',pja:'5〜6ヶ月目',pen:'Months 5–6',apps:[
+  {id:'a7',url:'https://gabay-koekake.vercel.app/',ja:'声かけマスター',en:'Communication Master',lv:'N3',dja:'利用者の状態やシチュエーションに合わせた適切な声かけと判断力を鍛える速攻演習。',den:'Quick drills that build judgment for choosing the right words with residents in different situations.'},
+  {id:'a8',url:'https://kaigo-kiroku-lite.vercel.app/',ja:'介護記録 かんたん入力',en:'Kaigo Kiroku Lite',lv:'N3',dja:'申し送りや介護日誌の頻出フレーズを直感的に組み立てる実務支援。記録業務の負担を軽減。',den:'Assemble common handover and care-log phrases intuitively, cutting down documentation time.'},
+  {id:'a9',url:'https://care-nihongo-pwa.vercel.app/',ja:'話して書いて伝え合う（介護職エディション）',en:'Talk, Write & Share (Care Edition)',lv:'N3',dja:'N3レベル・全15課。来日後の生活と現場コミュニケーションを想定したトピックを、語彙→会話→文型→作文の4ステップで、話す・書く力まで一気に鍛えます。',den:'An N3-level, 15-unit course: vocabulary, conversation, sentence patterns, then writing — for real speaking and writing ability.'}]},
+ {n:4,t:'t-guide',ja:'来日後の定着・介護福祉士',en:'Career & National License',pja:'来日後〜3年目',pen:'In Japan · up to Year 3',apps:[
+  {id:'a10',url:'https://kaigo-kotoba-katsujido.vercel.app/',ja:'介護ことば活字堂',en:'Kaigo Kotoba Katsujido',lv:'N3',dja:'介護福祉士国家試験の頻出用語を、ルビ付き表記・英訳・出題例・3択問題・やさしい日本語解説で徹底攻略する用語特化ドリル。',den:'Key exam terms with furigana, English translations, sample contexts, 3-choice questions and plain-Japanese explanations.'},
+  {id:'a11',url:'https://social-mechanism-katsujido.vercel.app/',ja:'社会のしくみ活字堂',en:'Shakai Shikumi Katsujido',lv:'N3',dja:'介護保険制度・認定の流れ・権利擁護・地域包括ケアなど「社会のしくみ」領域を全6ユニット62問で整理。ルビ表示切替と英語ワンポイント解説付き。',den:'Long-term care insurance, certification, advocacy and community care across 6 units and 62 questions, with a furigana toggle and English tips.'},
+  {id:'a12',url:'https://kaigo-part-goukaku.vercel.app/',ja:'介護福祉士 パート合格',en:'Kaigo Part Goukaku',dja:'新制度対応。過去問389問から未合格パート（A/B/C）を抽出演習。短時間で弱点を克服。',den:'Updated for the new exam system. Drills unpassed parts (A/B/C) from a 389-question bank in short sessions.'}]}
+];
+const ROADMAP=[
+ {ja:'Months 1–2（約95h）｜STAGE 1 日本語の土台づくり',en:'Months 1–2 (~95h) | STAGE 1 Japanese Foundation',dja:'ひらがな・基本語彙300語・助詞',den:'Hiragana, 300 core words, particles'},
+ {ja:'Months 3–4（約110h）｜STAGE 2 特定技能 試験突破',en:'Months 3–4 (~110h) | STAGE 2 Exam Breakthrough',dja:'JFT-Basic A2・介護技能評価試験',den:'JFT-Basic A2 and the Nursing Care Skills Exam'},
+ {ja:'Months 5–6（約95h）｜STAGE 3 現場即戦力＆Gate突破',en:'Months 5–6 (~95h) | STAGE 3 Job-Ready & Gates',dja:'声かけ・介護記録・指示理解＆N3会話AI判定クリア',den:'Communication, care records, instruction check & N3 AI placement'},
+ {ja:'In Japan（来日後〜3年目）｜STAGE 4 現場定着・介護福祉士',en:'In Japan (to Year 3) | STAGE 4 Settling In & National License',dja:'1日30分のスキマ学習で国家資格パート合格',den:'30 minutes a day toward passing the national exam parts'}
+];
+
+/* ---------- 共通ユーティリティ ---------- */
+function el(tag,cls,ja,en,attrs){
+ const e=document.createElement(tag);
+ if(cls)e.className=cls;
+ if(ja!=null){e.dataset.ja=ja;e.dataset.en=(en==null?ja:en);e.textContent=ja;}
+ if(attrs)for(const k in attrs)e.setAttribute(k,attrs[k]);
+ return e;
+}
+const T=(ja,en)=>lang==='ja'?ja:en;
+function playTone(freq=437,dur=.12){
+ if(!soundOn)return;
+ try{
+  if(!audioCtx){const AC=window.AudioContext||window.webkitAudioContext;audioCtx=new AC();}
+  if(audioCtx.state==='suspended')audioCtx.resume();
+  const o=audioCtx.createOscillator(),g=audioCtx.createGain(),t=audioCtx.currentTime;
+  o.type='sine';o.frequency.setValueAtTime(freq,t);
+  g.gain.setValueAtTime(.01,t);g.gain.exponentialRampToValueAtTime(.12,t+.02);g.gain.exponentialRampToValueAtTime(.001,t+dur);
+  o.connect(g);g.connect(audioCtx.destination);o.start();o.stop(t+dur);
+ }catch(e){console.warn('Web Audio unavailable:',e);}
+}
+
+/* ---------- localStorage ---------- */
+function load(){
+ try{const p=JSON.parse(localStorage.getItem(KEY)||'{}');return{done:p.done||{},days:Array.isArray(p.days)?p.days:[],pid:typeof p.pid==='string'?p.pid:''};}
+ catch(e){return{done:{},days:[],pid:''};}
+}
+function save(p){try{localStorage.setItem(KEY,JSON.stringify(p));}catch(e){console.warn('保存失敗:',e);}}
+function dstr(d){return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0');}
+function recordToday(){
+ const p=load(),t=dstr(new Date());
+ if(!p.days.includes(t)){p.days.push(t);p.days.sort();save(p);}
+}
+function streakOf(days){
+ const s=new Set(days);let n=0;const d=new Date();
+ if(!s.has(dstr(d)))d.setDate(d.getDate()-1);
+ while(s.has(dstr(d))){n++;d.setDate(d.getDate()-1);}
+ return n;
+}
+
+/* ---------- 描画 ---------- */
+function makeCard(item,theme,badgeJa,badgeEn,big){
+ const card=el('div','card p-5 rounded-xl flex flex-col justify-between '+theme);
+ card.dataset.id=item.id;
+ const top=el('div');
+ const row=el('div','flex items-start justify-between gap-2 mb-2');
+ row.appendChild(el('span','badge text-xs font-semibold px-2.5 py-1 rounded-md',badgeJa,badgeEn));
+ top.appendChild(row);
+ top.appendChild(el('h3','font-mincho '+(big?'text-xl':'text-lg')+' font-bold mb-1',item.ja,item.en));
+ const sub=el('div','flex items-center gap-2 mb-3');
+ sub.appendChild(el('p','font-spectral text-xs text-stone-500 italic',item.en,item.en));
+ if(item.lv)sub.appendChild(el('span','level-badge',item.lv,item.lv));
+ top.appendChild(sub);
+ top.appendChild(el('p','text-stone-600 text-sm leading-relaxed mb-4',item.dja,item.den));
+ card.appendChild(top);
+ const foot=el('div','flex gap-2');
+ const a=el('a','open-btn tap-target flex-1 py-2.5 px-4 rounded-lg bg-stone-50 border border-stone-200 text-stone-700 text-sm font-semibold flex items-center justify-between',null,null,{href:item.url,target:'_blank',rel:'noopener noreferrer'});
+ a.appendChild(el('span',null,'アプリを開く','Open App'));
+ const ic=document.createElement('i');ic.className='fa-solid fa-arrow-up-right-from-square text-xs';a.appendChild(ic);
+ a.addEventListener('click',()=>{playTone(437,.15);recordToday();refreshDash();});
+ const b=el('button','chk tap-target px-3 rounded-lg text-sm',null,null,{type:'button','data-chk':item.id});
+ b.addEventListener('click',()=>toggleDone(item.id));
+ foot.appendChild(a);foot.appendChild(b);card.appendChild(foot);
+ return card;
+}
+function build(){
+ const gg=document.getElementById('gateGrid');
+ GATES.forEach(g=>{
+  const c=makeCard({id:g.id,url:g.url,ja:g.ja,en:g.en,dja:g.dja,den:g.den},'t-gate','Gate '+g.no.slice(-2)+'｜修了判定','Gate '+g.no.slice(-2)+' | Completion Gate',true);
+  c.classList.add('border-2');gg.appendChild(c);
+ });
+ const root=document.getElementById('stages');
+ STAGES.forEach(s=>{
+  const sec=el('section',s.t);
+  const h=el('div','flex flex-wrap items-baseline justify-between gap-2 mb-1 pb-2 border-b-2');
+  h.style.borderColor='var(--c)';
+  const left=el('h2','font-mincho text-xl sm:text-2xl font-bold');
+  left.appendChild(el('span',null,'STAGE '+s.n+'：'+s.ja,'STAGE '+s.n+': '+s.en));
+  h.appendChild(left);
+  const right=el('p','text-xs font-semibold flex items-center gap-2');
+  right.appendChild(el('span','badge px-2 py-0.5 rounded-md',s.pja,s.pen));
+  const cnt=el('span','text-stone-600',null,null,{'data-stagecount':s.n});
+  right.appendChild(cnt);h.appendChild(right);sec.appendChild(h);
+  const grid=el('div','grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-4');
+  s.apps.forEach(a=>grid.appendChild(makeCard(a,s.t,'STAGE '+s.n,'STAGE '+s.n,false)));
+  sec.appendChild(grid);root.appendChild(sec);
+ });
+ const rl=document.getElementById('roadmapList');
+ ROADMAP.forEach((r,i)=>{
+  const li=el('li','bg-white border border-[var(--stone-line)] rounded-lg p-3');
+  li.appendChild(el('p','font-bold text-sm',r.ja,r.en));
+  li.appendChild(el('p','text-xs text-stone-600 mt-1',r.dja,r.den));
+  rl.appendChild(li);
+ });
+}
+
+/* ---------- 進捗 ---------- */
+function toggleDone(id){
+ const p=load();p.done[id]=!p.done[id];save(p);
+ playTone(p.done[id]?660:330,.1);recordToday();refreshDash();
+}
+function countDone(p){
+ const ids=GATES.map(g=>g.id).concat(STAGES.flatMap(s=>s.apps.map(a=>a.id)));
+ return ids.filter(i=>p.done[i]).length;
+}
+function refreshDash(){
+ const p=load(),n=countDone(p),rate=Math.round(n/TOTAL*100);
+ document.getElementById('streakText').textContent=T('🔥 連続学習：','🔥 Streak: ')+streakOf(p.days)+T('日 / 累計：','d / Total: ')+p.days.length+T('日',' days');
+ document.getElementById('rateText').textContent=T('全体修了率：','Overall completion: ')+rate+'%（'+n+' / '+TOTAL+T(' 完了',' done')+'）';
+ document.getElementById('barFill').style.width=rate+'%';
+ document.getElementById('barWrap').setAttribute('aria-valuenow',rate);
+ document.querySelectorAll('[data-chk]').forEach(b=>{
+  const on=!!p.done[b.dataset.chk];
+  b.classList.toggle('on',on);
+  b.textContent=on?T('✓ 完了','✓ Done'):T('完了にする','Mark done');
+  b.setAttribute('aria-pressed',on);
+  b.closest('.card').classList.toggle('done',on);
+ });
+ STAGES.forEach(s=>{
+  const c=s.apps.filter(a=>p.done[a.id]).length;
+  const e=document.querySelector('[data-stagecount="'+s.n+'"]');
+  if(e)e.textContent=c+' / '+s.apps.length;
+ });
+}
+function reportText(){
+ const p=load(),n=countDone(p),rate=Math.round(n/TOTAL*100),pid=p.pid.trim()||'-';
+ const st=id=>p.done[id]?'完了 Done':'未完了 Not yet';
+ return ['【HAKBANG 進捗レポート / Progress Report】',
+  'ID: '+pid,
+  '日付 Date: '+dstr(new Date()),
+  '連続学習 Streak: '+streakOf(p.days)+'日 days / 累計 Total: '+p.days.length+'日 days',
+  '全体修了率 Completion: '+rate+'%（'+n+' / '+TOTAL+'）',
+  'Gate 01 指示理解・実行力診断 Instruction Check: '+st('g1'),
+  'Gate 02 N3相当 会話能力判定 N3 Placement Check: '+st('g2')].join('\n');
+}
+async function copyReport(){
+ const txt=reportText(),msg=document.getElementById('copyMsg');
+ let ok=false;
+ try{await navigator.clipboard.writeText(txt);ok=true;}
+ catch(e){
+  try{const ta=document.createElement('textarea');ta.value=txt;ta.style.position='fixed';ta.style.opacity='0';document.body.appendChild(ta);ta.select();ok=document.execCommand('copy');document.body.removeChild(ta);}catch(e2){ok=false;}
+ }
+ msg.textContent=ok?T('コピーしました。','Copied to clipboard.'):T('コピーに失敗しました。手動で選択してください。','Copy failed. Please select and copy manually.');
+ playTone(ok?660:330,.1);
+}
+
+/* ---------- 言語・音声 ---------- */
+function applyLang(l){
+ lang=l;document.documentElement.lang=l==='ja'?'ja':'en';
+ document.querySelectorAll('[data-ja]').forEach(e=>{e.textContent=l==='ja'?e.dataset.ja:e.dataset.en;});
+ const pi=document.getElementById('pidInput');pi.placeholder=l==='ja'?pi.dataset.phJa:pi.dataset.phEn;
+ document.getElementById('langLabel').textContent=l==='ja'?'English':'日本語';
+ document.getElementById('soundLabel').textContent=(l==='ja'?'437Hz 音声: ':'437Hz Sound: ')+(soundOn?'ON':'OFF');
+ document.getElementById('copyMsg').textContent='';
+ refreshDash();
+}
+function toggleSound(){
+ soundOn=!soundOn;
+ document.getElementById('soundIcon').className=soundOn?'fa-solid fa-volume-high text-[var(--brass-deco)]':'fa-solid fa-volume-xmark text-stone-400';
+ if(soundOn)playTone(437,.1);
+ applyLang(lang);
+}
+
+window.addEventListener('load',()=>{
+ build();
+ document.getElementById('langToggle').addEventListener('click',()=>{applyLang(lang==='ja'?'en':'ja');playTone(437,.1);});
+ document.getElementById('soundToggle').addEventListener('click',toggleSound);
+ document.getElementById('copyBtn').addEventListener('click',copyReport);
+ const pi=document.getElementById('pidInput');
+ pi.value=load().pid;
+ pi.addEventListener('input',()=>{const p=load();p.pid=pi.value.slice(0,40);save(p);});
+ document.body.addEventListener('click',()=>{if(!audioCtx){const AC=window.AudioContext||window.webkitAudioContext;audioCtx=new AC();}},{once:true});
+ recordToday();
+ applyLang('ja');
+});
+</script>
+</body>
+</html>
